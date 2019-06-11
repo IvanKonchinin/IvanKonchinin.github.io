@@ -434,6 +434,7 @@ input[type='submit']{
 	border-right:1px solid #AD311B;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
+	z-index: 200;
 }
 .social-int,.social-TW,.social-rss,.social-f{
 	width: 50px;
@@ -477,7 +478,11 @@ input[type='submit']{
 width:100px;
 border:1px solid grey;
 border-radius: 5px;
-background: linear-gradient(#F3AE0F, #E38916) #E38916;
+background: -webkit-gradient(linear, left top, left bottom, from(#F27458), to(#EF6347));
+background: -webkit-linear-gradient(top, #F27458, #EF6347);
+background: -moz-linear-gradient(top, #F27458, #EF6347);
+background: -ms-linear-gradient(top, #F27458, #EF6347);
+background: -o-linear-gradient(top, #F27458, #EF6347);
 text-align:center;
 padding:5px;
 position:fixed;
@@ -485,11 +490,11 @@ bottom:10px; /* отступ кнопки от нижнего края стра�
 right:20px;
 cursor:pointer;
 display:none;
-color:#3f471b;
+color:#AD311B;
 font-weight: bold;
 font-family:verdana;
 font-size:13px;
-
+z-index: 200;
 }
 #toTop:hover{
 	filter: brightness(120%);
@@ -561,23 +566,25 @@ font-size:13px;
 		padding: 0;
 		text-align:center;
 		display: none;
-		transition: 1s;
 	}
 	.bg-menu-open{
 		display: block;
 		height: 0%;
-		transition: 10s;
 	}
 	.burger{
 		font-size: 24px;
 		position: absolute;
 		color: #fff;
-		width: 50px;
-		height: 50px;
-		top: 5px;
-		right: 0;
+		width: 35px;
+		height: 40px;
+		padding: 5px;
+		top: 0;
+		right: 20px;
 		cursor: pointer;
 		display: block;
+	}
+	.burger:active{
+		outline: none;
 	}
 	.menu-header li{
 		display: block;
