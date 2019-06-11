@@ -3,6 +3,11 @@ $(function(){
 		$('.bg-menu').toggleClass('bg-menu-open');
 	})
 
+	$(".arrow").click(function(){
+		$('.social-left').toggleClass('social-right');
+		$('.arrow').fadeOut();
+	})
+
 
 $(window).scroll(function() {
 	if($(this).scrollTop() != 0) {
