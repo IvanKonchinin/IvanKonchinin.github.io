@@ -42,7 +42,6 @@ ul{
 	position: absolute;
 	top:0px;
 	padding-left: 25%;
-
 }
 .bg-logo{
 	background: #f26c4f;
@@ -467,6 +466,37 @@ input[type='submit']{
 .social-int{
 	background: url('../img/int.png') no-repeat 11px 13px, #F26C4F;
 }
+.burger{
+	display: none;
+}
+
+
+/*Кнопка вверх*/
+
+#toTop {
+width:100px;
+border:1px solid grey;
+border-radius: 5px;
+background: linear-gradient(#F3AE0F, #E38916) #E38916;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:20px;
+cursor:pointer;
+display:none;
+color:#3f471b;
+font-weight: bold;
+font-family:verdana;
+font-size:13px;
+
+}
+#toTop:hover{
+	filter: brightness(120%);
+}
+#toTop:active{
+	filter: brightness(80%);
+}	
 
 @media screen and (max-width: 1000px){
 		.sidebar-wrap{
@@ -528,9 +558,26 @@ input[type='submit']{
 	}
 	.bg-menu{
 		position: static;
-		height: 100%;
 		padding: 0;
 		text-align:center;
+		display: none;
+		transition: 1s;
+	}
+	.bg-menu-open{
+		display: block;
+		height: 0%;
+		transition: 10s;
+	}
+	.burger{
+		font-size: 24px;
+		position: absolute;
+		color: #fff;
+		width: 50px;
+		height: 50px;
+		top: 5px;
+		right: 0;
+		cursor: pointer;
+		display: block;
 	}
 	.menu-header li{
 		display: block;
