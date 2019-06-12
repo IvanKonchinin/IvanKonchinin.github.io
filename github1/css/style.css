@@ -475,13 +475,26 @@ input[type='submit']{
 	height: 50px;
 	background: url('../img/arrow.png');
 	position: fixed;
-	top:20%;
-	left: -2%;
+	top:43%;
+	left: -1%;
 	opacity: .5;
 	cursor: pointer;
+	opacity: .3;
 }
 
-
+.arrow-back{
+	width: 50px;
+	height: 50px;
+	background: url('../img/arrow-back.png');
+	position: fixed;
+	top:43%;
+	left: -1%;
+	opacity: .5;
+	cursor: pointer;
+	display: none;
+	z-index: 300;
+	opacity: .3;
+}
 /*Кнопка вверх*/
 
 #toTop {
@@ -652,7 +665,7 @@ z-index: 200;
 		display: none;
 	}
 	.social-left{
-		top:10%;
+		top:9%;
 		position: fixed;
 		transform: translateX(-50px);
 		transition: 1s;
