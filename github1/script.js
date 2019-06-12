@@ -4,10 +4,16 @@ $(function(){
 	})
 
 	$(".arrow").click(function(){
-		$('.social-left').toggleClass('social-right');
-		$('.arrow').fadeOut();
+		$('.social-left').addClass('social-right');
+		$('.arrow').hide();
+		$('.arrow-back').show(500);
 	})
 
+	$('.arrow-back').click(function(){
+		$('.social-left').removeClass('social-right');
+		$('.arrow-back').hide();
+		$('.arrow').show(500);
+	})
 
 $(window).scroll(function() {
 	if($(this).scrollTop() != 0) {
@@ -19,7 +25,5 @@ $(window).scroll(function() {
 	$('#toTop').click(function() {
 	$('body,html').animate({scrollTop:0},700);
 	});
-
-
 
 });
