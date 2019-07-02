@@ -3,7 +3,7 @@
 *{
 	margin:0;
 	padding: 0;
-	/*border: 1px solid red;*/
+	/* border: 1px solid red; */
 }
 a{
 	text-decoration: none;
@@ -288,6 +288,7 @@ main .main_about{
 }
 .owl-nav{
 	position: relative;
+	display: none;
 }
 .owl-prev{
 	width: 40px;
@@ -641,14 +642,17 @@ tr td:nth-child(3){
 	.owl-prev,.owl-next{
 	top:-160px;
 	}
+	table tr td:nth-child(3){
+		display: none;
+	}
 }
 @media (max-width: 440px){
 	.header_logo{
-	font-size: 24px;
+	font-size: 20px;
 	margin-top: 52px;
 	}
 	nav{
-		margin-left: -5px;
+		margin-left: 0px;
 	}
 	
 }	
