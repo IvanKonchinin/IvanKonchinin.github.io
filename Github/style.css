@@ -648,7 +648,7 @@ tr td:nth-child(3){
 	margin-top: 52px;
 	}
 	nav{
-		margin-left: 0;
+		margin-left: -5px;
 	}
 	
 }	
