@@ -24,21 +24,25 @@ $(window).scroll(function() {
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
   	nav:true,
-    pagination:true,
     margin:10,
+    autoplay:true,
+    smartSpeed:1000,
+    autoplayTimeout:3000,
     navText: ['<img src="img/prev.png">','<img src="img/next.png">'],
-    items:4,
-    loop:true
+    loop:true,
+    responsive:{
+    	0:{
+    		items:1
+    	},
+    	600:{
+    		items:3
+    	},
+    	1000:{
+    		items:4
+    	}
+    }
   });
 });
-
-if($(window).width() < 420){
-	$(".owl-carousel").owlCarousel({
-		nav:true,
-   		navText: ['<img src="img/prev.png">','<img src="img/next.png">'],
-    	items:1,
-    	loop:true
-	});
-}
-
 });
+
+//Плавная прокрутка

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+/*@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");*/
 *{
 	margin:0;
 	padding: 0;
+	/*border: 1px solid red;*/
 }
 a{
 	text-decoration: none;
@@ -8,8 +11,10 @@ a{
 li{
 	list-style: none;
 }
+
 body{
 	font-family: 'Open sans', sans-serif;
+
 }
 header{
 	width: 100%;
@@ -18,18 +23,18 @@ header{
 }
 .header_logo{
 	text-transform: uppercase;
-	color: #fff;
+	color: #0079FE;
 	font-weight: 800;
-	font-size: 24px;
+	font-size: 30px;
 	cursor: pointer;
-	margin-top: 56px;
-	margin-left: 10%;
+	margin-top: 45px;
+	margin-left: 5%;
 	white-space: nowrap;
 	border-bottom: 3px solid black;
 }
 nav{
-	margin-top: 56px;
-	margin-left: 29%;
+	margin-top: 53px;
+	margin-left: 18%;
 }
 .topnav a{
 	color: #fff;
@@ -94,6 +99,7 @@ main .main_about{
 .about_right p{
 	margin:30px 0 50px 0;
 	color: #6a6a6a;
+	text-align: left;
 }
 .about_right li{
 	background: url('img/vector.png') no-repeat;
@@ -123,15 +129,19 @@ main .main_about{
 	margin:20px auto;
 }
 .photo1{
-	background: url('img/ivan.png');
-	background-position: -30px 0;
+	background: url('img/ivan.png') no-repeat 0 -30px;
+	background-size: cover;
 }
 .photo2{
 	background: url('img/leha.png');
 	background-size: cover;
 }
 .photo3{
-	background: url('img/Dimon.png') no-repeat;
+	background: url('img/Andrey.png') no-repeat;
+	background-size: cover;
+}
+.photo4{
+	background: url('img/Andrey2.png') no-repeat;
 	background-size: cover;
 }
 .team_cards{
@@ -141,6 +151,7 @@ main .main_about{
 	margin:0 40px;
 	border: 2px solid #000;
 	border-radius: 5px;
+	padding: 0px 30px;
 }
 .card:hover{
 	border: 2px solid #fcac45;
@@ -166,7 +177,7 @@ main .main_about{
 }
 .services_cards{
 	display: grid;
-	grid-template-rows: 300px 100px;
+	grid-template-rows: 300px;
 	grid-row-gap: 10%;
 }
 .main_services h1{
@@ -180,7 +191,7 @@ main .main_about{
 .services_cards{
 	box-shadow: 0 0 10px grey;
 	height: 400px;
-	padding-top: 10px;
+	padding: 10px 10px;
 	border-radius: 5px;
 }
 .services_card{
@@ -238,12 +249,14 @@ main .main_about{
 	background: #000;
 	text-align:center;
 	color: #fff;
-	padding-bottom: 170px;
+	padding-bottom: 100px;
 }
 .main_testimonials .testimonials{
-	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.testimonials-name{
 	margin-bottom: 50px;
-
+	color: #ffc;
 }
 .main_testimonials h1{
 	text-transform: uppercase;
@@ -270,17 +283,26 @@ main .main_about{
 .about_left img{
 	border-radius: 10px;
 }
-.owl-carousel{
+.gallery{
 	position: relative;
 }
-.owl-nav .owl-prev,.owl-next{
+.owl-nav{
+	position: relative;
+}
+.owl-prev{
 	width: 40px;
 	height: 50px;
 	position: absolute;
-}
-.owl-nav .owl-prev{
 	left: -40px;
-	top: 37%;
+	top:-110px;
+	opacity: .6;
+}
+.owl-next{
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	right: -40px;
+	top: -110px;
 	opacity: .6;
 }
 .owl-prev:hover{
@@ -290,8 +312,6 @@ main .main_about{
 	outline: none;
 }
 .owl-nav .owl-next{
-	right: -40px;
-	top: 37%;
 	opacity: .6;
 }
 .owl-next:hover{
@@ -301,7 +321,7 @@ main .main_about{
 	outline: none;
 }
 .contact_form{
-	padding: 100px 0 100px 0;
+	padding: 100px 0 0px 0;
 }
 .contact_form h1,p{
 	text-align:center;
@@ -418,11 +438,74 @@ font-size:13px;
 #toTop:active{
 	filter: brightness(80%);
 }	
+.tel-number{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
 
+/*Прайс*/
+.section{
+	background: #333;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
+}
+.row-price{
+	display: flex;
+	align-items: baseline;
+	width: 90%;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #fcac45;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+.section h2{
+	display: inline-block;
+	font-weight: normal;
+	margin-left: 35%;
+}
+table{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 90%;
+}
+table, td{
+	border: 2px solid grey;
+	border-collapse: collapse;
+}
+td{
+	padding: 5px 20px;
+}
+tr:hover{
+	background: rgba(0, 0, 0, 0.4);
+}
+tr td:nth-child(3){
+	text-align: center;
+}
+.btn-back{
+	color: #fff;
+	padding: 3px 5px;
+	display: inline-block;
+	border-radius: 5px;
+	background: linear-gradient(#F3AE0F, #E38916) #E38916;
+	filter: brightness(0.8);
+}
+.btn-back:hover{
+	filter: brightness(1);
+}
 @media screen and (max-width: 1250px){
+	.header_logo{
+		margin-left: 3%;
+	}
 	nav{
-		margin-left: 13%;
+		margin-left: 8%;
+	}
+	.topnav a{
+		padding: 10px 10px;
 	}
 	.line{
 		left:44%;
@@ -441,6 +524,9 @@ font-size:13px;
 }
 }
 @media screen and (max-width: 1010px){
+	nav{
+		margin-left: 10%;
+	}
 	.topnav a{
 		display: none;
 	}
@@ -523,10 +609,17 @@ font-size:13px;
 	.services_cards{
 		margin-bottom: 30px; 
 	}
+	.header_logo{
+	color: #0079FE;
+	margin-top: 50px;
+	margin-left: 0%;
+	}
 }	
 @media (max-width: 600px){
-	.line{
-		display: none;
+	.header_logo{
+	color: #0079FE;
+	margin-top: 50px;
+	margin-left: 0%;
 	}
 	.clients{
 		grid-template-columns: auto;
@@ -545,4 +638,17 @@ font-size:13px;
 	.topnav .icon{
 		padding: 12px 16px;
 	}
+	.owl-prev,.owl-next{
+	top:-160px;
+	}
+}
+@media (max-width: 440px){
+	.header_logo{
+	font-size: 24px;
+	margin-top: 52px;
+	}
+	nav{
+		margin-left: 0;
+	}
+	
 }	
