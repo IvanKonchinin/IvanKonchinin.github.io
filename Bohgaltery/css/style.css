@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+/* * {
+ border: 1px solid red;
+} */
+
+body,
+html {
+
+ font-family: 'Poppins', sans-serif;
+ color: #222;
+ box-sizing: border-box;
+}
+
+.bg-head {
+ background: url('../img/bg_head.png') no-repeat;
+ background-size: cover;
+ height: 100vh;
+ padding-top: 20px;
+}
+
+.head-contact a {
+ text-decoration: none;
+ color: #fff;
+}
+
+.sticky-top {
+ position: relative;
+}
+
+.bg-head:after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: rgba(0, 0, 0, .5);
+ z-index: 2;
+}
+
+.nav-link {
+ color: #fff !important;
+}
+
+.navbar .navbar-toggler-icon {
+ opacity: 1;
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+ position: relative;
+}
+
+.navbar-nav li {
+ padding-right: 25px;
+}
+
+.nav-link:hover {
+ color: rgb(211, 200, 200) !important;
+}
+
+.nav-link {
+ font-size: 1.1em !important;
+}
+
+nav.navbar .dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.dropdown-toggle::after {
+ display: none;
+}
+
+.service-item {
+ position: absolute;
+ top: 90%;
+ left: 15.5%;
+ height: auto;
+ max-height: 0px;
+ overflow: hidden;
+ transition: max-height .5s;
+ background: rgba(0, 0, 0, .5);
+}
+
+.service-item a {
+ display: block;
+ text-decoration: none;
+ color: #fff;
+ padding: 7px;
+}
+
+.service-item a:hover {
+ background: rgba(158, 158, 158, 0.5);
+}
+
+nav.navbar .nav-li-hover:hover>.service-item {
+ max-height: 300px;
+}
+
+.head-phone {
+ color: #fff;
+}
+
+.head-contact {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.head-contact img {
+ width: 12%;
+}
+
+.head-description {
+ color: #fff;
+ z-index: 30;
+ position: relative;
+ margin-top: 200px;
+}
+
+.head-description h1 {
+ font-size: 5vw;
+}
+
+/* services */
+.services {
+ margin-bottom: 150px;
+}
+
+h5 {
+ margin-bottom: 30px;
+ color: #3E2D0D;
+}
+
+.services h3 {
+ margin: 90px 0 50px 0;
+ color: #3E2D0D;
+}
+
+.my-services {
+ height: 300px;
+ width: 300px;
+}
+
+.my-services img {
+ max-width: 100%;
+ height: auto;
+}
+
+/* about-me */
+
+.grey-section {
+ background: rgba(0, 0, 0, 0.5);
+ padding: 50px;
+ color: #fff;
+}
+
+h3 {
+ margin: 0 0 50px 0;
+}
+
+/*advantages*/
+.advantages {
+ margin: 50px 0 50px 0;
+}
+
+.advantages h3 {
+ color: #3E2D0D;
+}
+
+/* slider */
+.portfolio {
+ position: relative;
+}
+
+.portfolio h3 {
+ font-weight: bold;
+ color: #3E2D0D;
+ text-align: center;
+ margin-top: 40px;
+}
+
+.portfolio-item {
+ width: 100%;
+ margin: 0px auto;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ text-align: left;
+ align-items: center;
+}
+
+.portfolio-img img {
+ max-width: 100px;
+}
+
+.portfolio-desc {
+ max-width: 35%;
+ min-height: 250px;
+}
+
+.slider {
+ padding: 0 0 20px 0;
+}
+
+.owl-dot:focus {
+ outline: none;
+}
+
+.owl-theme .owl-dots {
+ display: none;
+}
+
+
+
+.owl-carousel .owl-nav button.owl-prev {
+ background-image: url("../img/left-arrow.png");
+ background-size: 40px;
+ background-position: -7px 0px;
+ background-repeat: no-repeat;
+ width: 30px;
+ height: 43px;
+ outline: none;
+ margin-right: 50px;
+ opacity: 0.5;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+ background-image: url("../img/right-arrow.png");
+ background-size: 40px;
+ background-position: -7px 0px;
+ background-repeat: no-repeat;
+ width: 30px;
+ height: 43px;
+ outline: none;
+ opacity: 0.5;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+ opacity: 1;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+ opacity: 1;
+}
+
+/* contacts */
+.bg-contacts {
+ background: #644914;
+ padding: 50px 50px 10px 50px;
+}
+
+.bg-contacts h3 {
+ color: #fff;
+}
+
+.contacts {
+ line-height: 1.9;
+ color: #fff;
+}
+
+.fa-phone,
+.fa-whatsapp {
+ font-size: 20px;
+}
+
+.fa-vk,
+.fa-odnoklassniki,
+.fa-facebook {
+ font-size: 32px;
+ cursor: pointer;
+ margin-top: 80px;
+}
+
+.fa-vk,
+.fa-odnoklassniki {
+ margin-right: 30px;
+}
+
+.fa-vk:hover,
+.fa-odnoklassniki:hover,
+.fa-facebook:hover {
+ filter: brightness(0.7);
+}
+
+.forms {}
+
+.forms p {
+ color: #fff;
+ font-size: 10px;
+ margin-top: 15px;
+}
+
+.forms span {
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.btn {
+ color: #3E2D0D;
+ font-weight: 600;
+ display: block;
+ margin-top: 15px;
+ padding: 7px 25px;
+ border: none;
+ margin-left: auto;
+ background: #ccc linear-gradient(0deg, rgba(239, 239, 239, 1) 0%, rgba(169, 169, 169, 1) 100%);
+}
+
+.copyright {
+ color: #fff;
+ font-size: 12px;
+ margin-top: 20px;
+}
+
+.copyright span {
+ text-decoration: underline;
+ cursor: pointer;
+}
