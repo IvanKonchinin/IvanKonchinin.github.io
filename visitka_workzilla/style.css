@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url('img/house.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: calibri;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 20px 0;
+    background: rgba(0,0,0,0.4);
+}
+.head_logo{
+    color:#444;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background: rgba(255,255,255,0.5);
+}
+.contacts{
+    display: flex;
+    width: 90%;
+    margin:0 auto;  
+    font-size: 36px;
+    color:#fff;
+    justify-content: space-between;
+}
+.main_text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color:#fff;
+    padding: 0px 0;
+} 
+.main_text_left{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+} 
+.main_text_right{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+.container-text-wrap{
+    display: flex;
+    align-items: center;
+}   
+.container-text{
+    border-radius: 50%;
+    border:3px solid lightblue;
+    min-height: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    color:#fff;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main_text_left{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+}  
+.main_text_left_box, .main_text_right_box{
+    min-height: 80px;
+    width: 100%;
+    
+    border:3px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+.main_hands{
+    display: flex;
+    justify-content: space-around;
+    color:rgba(255,255,255,0.5);
+    
+}
+.box_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3) url('img/4-fingers-png-2-min.png') no-repeat 30px 0;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.box_img:hover{
+    color:#fff;
+}
+.box_img_mod{
+    background: rgba(255,255,255,0.3) url('img/hands_PNG928-min.png') no-repeat 25px 0;
+    background-size:contain;
+}
+.box_img_2{
+    margin-top: 10px;
+}
+.box_img_3{
+    margin-top: 20px;
+}
+.box_img_4{
+    margin-top: 30px;
+}
+.box_img_5{
+    margin-top: 20px;
+}
+.box_img_6{
+    margin-top: 10px;
+}
