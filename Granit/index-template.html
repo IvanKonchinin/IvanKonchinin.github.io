@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>Заголовок</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main_media.css">
+  <link rel="stylesheet" href="css/spinner.css">
+</head>
+
+<body>
+  <main>
+    
+    //= header.html
+
+    //= footer.html
+
+    <div id="button-up">
+      <span></span>
+    </div>
+    <!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Обратный звонок</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <label for="modal_phone">Укажите номер телефона для связи: </label>
+            <input id="phone" class="form-control" type="tel" name="phone" placeholder="+7 (999) 99 99 999">
+          </div>
+          <div class="modal-footer">
+            <!-- спиннер -->
+            <div class="no-freeze-spinner">
+              <div id="no-freeze-spinner">
+                <div>
+                  <i class="material-icons">
+                    drafts
+                  </i>
+                  <i class="material-icons">
+                  mail
+                  </i>
+                  <i class="material-icons">
+                    send
+                  </i>
+                  <div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end спиннер -->
+            <div class="send_message"></div>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-primary modal_footer_send" data-dismiss="">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/script.js"> </script>
+</body>
+</html>    
