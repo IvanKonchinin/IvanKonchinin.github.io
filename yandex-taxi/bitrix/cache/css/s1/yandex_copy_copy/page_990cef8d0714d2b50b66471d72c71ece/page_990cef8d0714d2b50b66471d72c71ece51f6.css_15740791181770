@@ -1,0 +1,72 @@
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/form/nova/bitrix/form.result.new/.default/style.css?15724167981429*/
+
+.form-required
+{
+	color: red;
+}
+
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(../../../../../templates/.default/components/bitrix/form/nova/bitrix/form.result.new/.default/images/icon_warn.gif);
+}
+
+
+.full-width-form .divError {
+    background-color: #fcefa1;
+    padding: 3px 10px;
+    border: 1px solid #ccc;
+    margin-top: 0px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.spasibo{	position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+    opacity: 0;}
+.spasibo.active{	z-index: 1000;
+	opacity: 1;}
+.spasibo:before{	display:block;
+	content:"";
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+    opacity: .6;}
+.spasibo .html{	background-color: #fccb02;
+	max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    color: #242424;
+    min-height: 200px;
+    position: relative;
+    top: -100%;
+    border: 2px solid #fff;
+    border-radius: 10px;}
+.spasibo.active .html{	top: 50%;
+	transform: translateY(-50%);
+}
+.spasibo .html .text{	text-align: center;
+    font-size: 32px;
+    padding: 30px 0px 0px 0px;}
+.spasibo .html .text span{	display: block;
+	font-size: 24px;}
+/* End */
+/* /bitrix/templates/.default/components/bitrix/form/nova/bitrix/form.result.new/.default/style.css?15724167981429 */

@@ -1,0 +1,480 @@
+/*@media screen and (max-width: 1265px) {*/
+/*    content .Block2 .Item.rub .ik{*/
+/*       background-image: url('../img/img5.png');*/
+/*       transform: rotate(0deg);*/
+/*       background-position: 60% 100%;*/
+/*	}*/
+/*	content .Block2 .Item.rub .text{*/
+/*    	color: #fff;*/
+/*       width: 250px;*/
+/*       transform: rotate(0deg);*/
+/*	}*/
+/*	content .Block2 .Item_rub_on{*/
+/*		background: none;
+/*       transform: rotate(0deg);*/
+/*	}*/
+
+
+}
+@media screen and (max-width: 1050px) {
+ 	header .header .nav{
+ 		padding: 47px 0px 0px 50px;
+ 	}
+ 	header .header .Phone{
+ 		margin: 38px 0px 0px 0px;
+ 	}
+ 	header .header .Phone a{
+ 		font-size: 25px;
+ 	}
+ 	header .header .nav ul li + li{
+ 		margin: 0px 0px 0px 20px;
+ 	}
+ 	.content{
+ 		padding: 0px 10px;
+ 	}
+ 	content .Block4 .Items .Item .tel{
+ 		    font-size: 30px;
+ 		    background-size: contain;
+ 	}
+ 	content .Block4 .Items .Item .title{
+ 		font-size: 30px;
+ 	}
+ 	content img{
+ 		max-width:100%;
+ 	}
+ 	content .Block6 .Items .Item{
+ 		width: 240px;
+ 	}
+ 	content .Block6 .Items .Item:nth-child(2){
+ 		    margin: 0px 30px 0px 30px;
+ 	}
+ 	content .Block5 img{
+ 		max-width:96%;
+ 		display:block;
+ 		margin:auto;
+ 	}
+}
+
+@media screen and (max-width: 980px) {
+	content .Block2 .Item_rub_on{
+		background-color: unset;
+		transform: rotate(0deg);
+	}
+	content .Block2 .Item.rub .ik{
+		background-image: url(../img/img5.png);
+		transform: rotate(0deg);
+	}
+	content .Block2 .Item.rub .text{
+		color: #fff;
+		transform: rotate(0deg);
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	header .Banner .Info .title{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	header .Banner .Info .text {
+	    font-size: 16px;
+	    padding: 20px 0px;
+	}
+	header .Banner .Info .conect{
+		height: 40px;
+	    width: 190px;
+	    line-height: 40px;
+	    font-size: 16px;
+	}
+	header .Banner{
+		min-height: 280px;
+	    background-position: 100% 80px;
+	    background-size: 400px;
+	}
+
+}
+@media screen and (max-width: 850px) {
+	header .header .nav{
+ 		clear: both;
+    	width: 100%;
+    	padding: 10px 0px 0px 0px;
+    	text-align: center;
+ 	}
+ 	content .Block3 .Title,
+ 	content .Block4 .Title,
+ 	content .Block5 .Title,
+ 	content .Block6 .Title{
+ 		font-size: 20px;
+ 	}
+ 	content .Block3 .Title:before,
+ 	content .Block3 .Title:after,
+ 	content .Block5 .Title:before,
+ 	content .Block5 .Title:after,
+ 	content .Block6 .Title:before,
+ 	content .Block6 .Title:after{
+ 		height: 16px;
+	    width: 83px;
+	    margin: 0px 10px 0px 0px;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+ 	}
+ 	content .Block3 .Title:after,
+ 	content .Block5 .Title:after,
+ 	content .Block6 .Title:after{
+ 		margin: 0px 0px 0px 10px;
+ 	}
+ 	content .Block3 .Items .Item,
+ 	content .Block5 .Items .Item,
+ 	content .Block6 .Items .Item{
+ 		width: 44%;
+ 	}
+ 	content .Block6 .Items .Item{
+ 		width: 100%;
+ 		margin:0px 0px 30px 0px;
+ 	}
+ 	content .Block6 img{
+ 		max-width:70%;
+ 		display:block;
+ 		margin:auto;
+ 	}
+ 	content .Block6{
+ 		    padding: 50px 0px 20px 0px;
+ 	}
+ 	content .Block6 .Items .Item:nth-child(2){
+ 		margin:0px 0px 30px 0px;
+ 	}
+ 	content .Block6 .Items .Item .title{
+ 		font-size: 18px;
+ 	}
+ 	content .Block6 .Items .Item .text{
+ 		padding: 2px 0px 0px 0px;
+ 		font-size: 14px;
+ 	}
+ 	content .Block7 p{
+ 		text-align:justify;
+ 	}
+}
+@media screen and (max-width: 800px) {
+	footer .Items .Item:nth-child(1),
+	footer .Items .Item:nth-child(2),
+	footer .Items .Item:nth-child(3),
+	footer .Items .Item:nth-child(4){
+		width:50%;
+		margin:0px;
+	}
+	footer .Items .Item:nth-child(3),
+	footer .Items .Item:nth-child(4){
+		margin:15px 0px 0px 0px;
+	}
+}
+@media screen and (min-width: 700px){
+	content .Block5 .Mobile{
+		display:none;
+	}
+}
+@media screen and (max-width: 700px){
+	content .Block5 .Info{
+		padding: 25px 0px 10px 0px;
+	}
+	content .Block5 .Items{
+		text-align:left;
+	}
+	content .Block5 img{
+		display:none;
+	}
+	content .Block5 .Items .Item{
+	    display: inline-block;
+	    width: 47%;
+	    margin: 0px 1% 10px 1%;
+	    text-align: left;
+	    background-image: url('../img/img7.png');
+	    min-height: 43px;
+	    background-position: 0px 0px;
+	    background-repeat: no-repeat;
+	    padding: 0px 0px 0px 70px;
+	}
+}
+@media screen and (max-width: 650px) {
+	content .Block4 .Items .Item{
+		width:90%;
+		margin:auto;
+		display:block;
+	}
+	content .Block4 .Items .Item .title{
+		padding:0px;
+	}
+	content .Block4 .Items .Item .info{
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;
+		padding-top: 20px;
+    margin-top: 20px;
+	}
+	content .Block4 .Items .Item.Info,
+	content .Block4 .Items .Item .Title{
+		text-align:center;
+	}
+	content .Block4 .Items .Item.Form{
+		float:none;
+		margin-top:20px;
+	}
+	content .Block4 .form-questions{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+@media screen and (max-width: 600px) {
+	header .Banner .Info{
+	    width: 300px;
+	    padding: 20px 0px 0px 0px;
+	}
+	header .Banner .Info .title {
+	    font-size: 24px;
+	}
+	header .Banner .Info .conect{
+		height: 40px;
+	    width: 100%;
+	    line-height: 40px;
+	    font-size: 14px;
+	    position: absolute;
+	    left: 0px;
+	    bottom: 0px;
+	}
+	header .Banner{
+		min-height: 200px;
+	    background-position: 100% 48px;
+	    background-size: 250px;
+	    position: relative;
+	}
+	content .Block_Icons .Items{
+		padding: 0px 0px 0px 0px;
+	}
+	content .Block_Icons .Item{
+		width: 60%;
+    	margin: 0px 0px 20px 0px;
+	}
+	content .Block2{
+		background-size: cover;
+	}
+	content .Block2 .Items{
+		padding: 0px 0px 0px 0px;
+	}
+	content .Block2 .Item{
+		width: 60%;
+    	margin: 0px 0px 20px 0px;
+	}
+	content .Block2 .Item .text{
+		padding: 15px 0px 0px 0px;
+    	line-height: 18px;
+	}
+
+	content .Block2 .Item.rub{
+		height: 200px;
+	}
+
+	content .Block35{
+    	margin: 30px 0 30px 0;
+	}
+
+	content .Block35 .Banner{
+   		 margin: auto;
+    	width: 100%;
+	}
+
+	content .Block3 .Title:before,
+	content .Block3 .Title:after,
+	content .Block5 .Title:before,
+	content .Block5 .Title:after,
+	content .Block6 .Title:before,
+	content .Block6 .Title:after{
+		display:block;
+		background-position: 50% 0px;
+		margin:0px;
+		width: 100%;
+		background-size: contain;
+	}
+	content .Block3 .Title:before,
+	content .Block5 .Title:before,
+	content .Block6 .Title:before{
+		margin:0px 0px 5px 0px;
+	}
+	content .Block3 .Title:after,
+	content .Block5 .Title:after,
+	content .Block6 .Title:after{
+		margin:5px 0px 0px 0px;
+	}
+}
+@media screen and (max-width: 550px) {
+	header .header .Phone a{
+		color: #3b3b3d;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	header .header .Phone a{
+		font-size: 24px;
+	}
+	header .Banner{
+		background-size: 215px;
+		background-position: 103% 48px;
+	}
+	header .Banner .Info .text{
+		width: 80%;
+	}
+content .Block3 .Items{
+	padding:30px 0px 0px 0px;
+}
+	content .Block3 .Items .Item {
+	    width: 100%;
+	    margin: 0px 0px 20px 0px;
+	}
+	content .Block4 .Items .Item .title{
+		font-size: 26px;
+	}
+	content .Block4 .Items .Item .tel{
+		    font-size: 24px;
+	}
+	content .Block4 .Items .Item .info{
+		font-size: 14px;
+	}
+	content .Block5 .Info{
+		font-size: 16px;
+		padding: 15px 0px 30px 0px;
+	}
+	footer .Items .Item:nth-child(1),
+	footer .Items .Item:nth-child(2),
+	footer .Items .Item:nth-child(3),
+	footer .Items .Item:nth-child(4){
+		width:100%;
+		margin:0px;
+		margin:15px 0px 0px 0px;
+	}
+	content .Block5 .Info {
+
+	    padding: 15px 0px 10px 0px;
+	}
+ 	content .Block5 .Items .Item{
+ 		width:90%;
+ 		margin: 0px 5% 10px 5%;
+ 	}
+ 	content .Block5{
+ 		padding: 20px 0px 30px 0px;
+ 	}
+}
+@media screen and (max-width: 450px) {
+header{
+		min-height: 280px;
+	}
+	header .Banner{
+		background: none;
+	}
+	header .Banner .Info{
+		margin: auto;
+	}
+	header .Banner .Info .title{
+		font-size: 20px;
+    	line-height: 23px;
+		text-align: center;
+	}
+	header .Banner .Info .text{
+		padding: 10px 0px;
+		text-align: center;
+	}
+	header .Banner .Info .conect{
+		bottom: 20px;
+	}
+    header .header .Phone a{
+ 		font-size: 14px;
+ 	}
+ 	header .header .Phone{
+ 		min-height: 16px;
+    	background-size: contain;
+        padding: 0px 0px 0px 20px;
+        margin: 32px 0px 0px 0px;
+ 	}
+ 	header .header .nav ul li + li{
+ 		margin: 0px 0px 0px 15px;
+ 	}
+ 	header .header .nav ul li a{
+ 		font-size: 12px;
+ 	}
+/*header .header .Phone{
+ 		margin: 28px 0px 0px 0px;
+ 	}
+	header .header .Phone a{
+ 		font-size: 18px;
+ 	}
+ 	header .header .logo{
+ 		width: 146px;
+	    height: 47px;
+	    margin: 15px 0px 0px 0px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+ 	}
+ 	header{
+ 		min-height: 300px;
+ 		background-position: -600px -150px;
+ 	}
+ 	header .Banner{
+ 		background-position: 100% 25px;
+    	background-size: 180px;
+ 	}*/
+}
+@media screen and (max-width: 400px) {
+	header{
+		min-height: 280px;
+	}
+	header .Banner{
+		background: none;
+	}
+	header .Banner .Info{
+		margin: auto;
+	}
+	header .Banner .Info .title{
+		font-size: 20px;
+    	line-height: 23px;
+		text-align: center;
+	}
+	header .Banner .Info .text{
+		padding: 10px 0px;
+		text-align: center;
+	}
+	header .Banner .Info .conect{
+		bottom: 20px;
+	}
+    header .header .Phone a{
+ 		font-size: 14px;
+ 	}
+ 	header .header .Phone{
+ 		min-height: 16px;
+    	background-size: contain;
+        padding: 0px 0px 0px 20px;
+        margin: 32px 0px 0px 0px;
+ 	}
+ 	header .header .nav ul li + li{
+ 		margin: 0px 0px 0px 15px;
+ 	}
+ 	header .header .nav ul li a{
+ 		font-size: 12px;
+ 	}
+ 	content .Block2{
+ 		    font-size: 14px;
+ 	}
+ 	content .Block2 .Items{
+ 		padding: 20px 0px 20px 0px;
+ 	}
+ 	content .Block2 .Item .ik{
+ 		height: 45px;
+ 		background-size: auto 40px;
+ 	}
+    content .Block2 .Item{
+		width: 90%;
+    	margin: 0px 0px 25px 0px;
+	}
+	content .Block2 .Item .text{
+		padding: 10px 0px 0px 0px;
+	}
+	content .Block2 .Item.rub{
+		height: 150px;
+	}
+}

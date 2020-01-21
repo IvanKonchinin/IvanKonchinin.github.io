@@ -1,0 +1,542 @@
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/ProximaNovaRegular.eot');
+    src: url('../fonts/ProximaNovaRegular.eot') format('embedded-opentype'),
+    url('../fonts/ProximaNovaRegular.woff2') format('woff2'),
+    url('../fonts/ProximaNovaRegular.woff') format('woff'),
+    url('../fonts/ProximaNovaRegular.ttf') format('truetype'),
+    url('../fonts/ProximaNovaRegular.svg') format('svg');
+}
+@font-face {
+    font-family: 'ProximaNovaExtrabold';
+    src: url('../fonts/ProximaNovaExtrabold.eot');
+    src: url('../fonts/ProximaNovaExtrabold.eot') format('embedded-opentype'),
+    url('../fonts/ProximaNovaExtrabold.woff2') format('woff2'),
+    url('../fonts/ProximaNovaExtrabold.woff') format('woff'),
+    url('../fonts/ProximaNovaExtrabold.ttf') format('truetype'),
+    url('../fonts/ProximaNovaExtrabold.svg') format('svg');
+}
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('../fonts/ProximaNovaBold.eot');
+    src: url('../fonts/ProximaNovaBold.eot') format('embedded-opentype'),
+    url('../fonts/ProximaNovaBold.woff2') format('woff2'),
+    url('../fonts/ProximaNovaBold.woff') format('woff'),
+    url('../fonts/ProximaNovaBold.ttf') format('truetype'),
+    url('../fonts/ProximaNovaBold.svg') format('svg');
+}
+
+html,
+body{
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'ProximaNovaRegular';
+    color:#3b3b3d;
+}
+body .all *{
+    box-sizing: border-box;
+    vertical-align: top;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+body .all{
+    width: 100%;
+    margin: 0px auto;
+    font-size: 14px;
+    overflow: hidden;
+    overflow-y: auto;
+    max-width: 1920px;
+}
+.clear{
+    clear: both;
+}
+.content{    
+    max-width: 1180px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+header{
+    background-image: url('../main/img/img.png');
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    background-color: #3b3b3d;
+    min-height: 383px;
+}
+header .header{}
+header .header .logo{
+    display: inline-block;
+    background-image: url('../img/img3.png');
+    width: 178px;
+    height: 57px;
+    margin: 24px 0px 0px 0px;
+}
+header .header .nav{
+    display: inline-block;
+    padding: 50px 0px 0px 120px;
+}
+header .header .nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 0px;
+}
+header .header .nav ul li{
+    display: inline-block;
+    font-size: 14px;
+    color:#3b3b3d;
+}
+header .header .nav ul li + li{
+    margin: 0px 0px 0px 40px;
+}
+header .header .nav ul li a{
+    font-size: 14px;
+    color:#3b3b3d;
+    text-decoration: underline;
+}
+header .header .nav ul li a.select,
+header .header .nav ul li a:hover{
+    text-decoration: none;
+}
+header .header .Phone{
+    display: inline-block;
+    float: right;
+    padding: 0px 0px 0px 30px;
+    margin: 40px 0px 0px 0px;
+    background-image: url('../img/img2.png');
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    min-height: 23px;
+}
+header .header .Phone a{
+    font-size: 30px;
+    color:#fff;
+}
+header .header .Phone a span{
+    font-weight: bold;
+}
+header .Banner{
+    background-image: url('../img/img1.png');
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-position: 100% 40px;
+    width: 100%;
+}
+header .Banner .Info{
+    width: 495px;
+    padding: 40px 0px 0px 0px;
+}
+header .Banner .Info .title{
+    font-size: 50px;
+    font-family: 'ProximaNovaExtrabold';
+    line-height: 45px;
+}
+header .Banner .Info .text{
+    font-size: 22px;
+    padding: 25px 0px;
+}
+header .Banner .Info .conect{
+    font-size: 20px;
+    color:#ffffff;
+    background-color: #3b3b3d;
+    display: inline-block;
+    height: 50px;
+    width: 220px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'ProximaNovaBold';
+    cursor:pointer;
+}
+content{
+    padding: 30px 0px 0px 0px;
+    display: block;
+}
+content .Block_Icons .Items{
+    text-align: center;
+    padding: 35px 0px 35px 0px;
+}
+content .Block_Icons .Item{
+    display: inline-block;
+    width: 260px;
+}
+content .Block_Icons .Item + .Item{}
+content .Block_Icons .Item .ik{
+    height: 95px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+content .Block_Icons .Item.proc .ik{
+    background-image: url('../img/Layer 20.png');
+}
+content .Block_Icons .Item.kard .ik{
+    background-image: url('../img/Layer 21.png');
+}
+content .Block_Icons .Item.rub .ik{
+    background-image: url('../img/Layer 22.png');
+}
+content .Block2{
+    background-image: url('../img/Layer_11.png');
+    background-position: 50% 0px;
+    min-height: 245px;
+    color:#fff;
+    font-size: 18px;
+	background-size: cover;
+}
+content .Block2 .Items{
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+}
+content .Block2 .Item{
+    display: inline-block;
+    width: 150px;
+    margin: 0px 25px;
+}
+content .Block2 .Item.lick .text{
+	padding-bottom: 20px;
+}
+content .Block2 .Item + .Item{
+    position: relative;
+}
+content .Block2 .Item .ik{
+    height: 75px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+content .Block2 .Item.proc .ik{
+    background-image: url('../img/img6.png');
+}
+content .Block2 .Item.kard .ik{
+    background-image: url('../img/img4.png');
+}
+content .Block2 .Item.rub .ik{
+    margin-top: 71px;
+    transform: rotate(-15deg);
+    background-image: url('../img/60_black.png');
+}
+content .Block2 .Item.lick .ik{
+    background-image: url('../img/like.png');
+}
+content .Block2 .Item .text{
+    padding: 35px 0px 0px 0px;
+    line-height: 18px;
+}
+content .Block2 .Item.rub{
+    overflow: hidden;
+    width: 310px;
+    height: 245px;
+    margin-top: -35px;
+    margin-left: 0;
+    margin-right: 0;
+}
+content .Block2 .Item_rub_on{
+	position: absolute;
+    background-color: #fccb02;
+    height: 350px;
+    width: 230px;
+    margin-top: -36px;
+    margin-left: 35px;
+    transform: rotate(15deg);
+}
+content .Block2 .Item.rub .text{
+    transform: rotate(-15deg);
+    color: #000;
+    padding-right: 10px;
+}
+
+content .Block3{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    background-color: #fefcf0;
+}
+content .Block3 .Title{
+    font-family: 'ProximaNovaExtrabold';
+    font-size: 30px;
+}
+content .Block3 .Title:after{
+    display: inline-block;
+    content: '';
+    background-image: url('../img/img8.png');
+    height: 21px;
+    width: 152px;
+    margin: 0px 0px 0px 15px;
+}
+content .Block3 .Title:before{
+    display: inline-block;
+    content: '';
+    background-image: url('../img/img8.png');
+    height: 21px;
+    width: 152px;
+    margin: 0px 15px 0px 0px;
+}
+content .Block3 .Items{
+    padding: 50px 0px 0px 0px;
+}
+content .Block3 .Items .Item{
+    display: inline-block;
+    width: 30%;
+    margin: 0px 1% 40px 1%;
+    text-align: left;
+    background-image: url('../img/img7.png');
+    min-height: 43px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 70px;
+}
+
+content .Block35{
+    margin: 60px 0 30px 0;
+}
+
+content .Block35 .Banner{
+    margin: auto;
+    width: 60%;
+}
+
+content .Block4{
+    background-image: url('../img/toyota.png');
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+content .Block4 .Title{
+    font-family: 'ProximaNovaExtrabold';
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+content .Block4 .shachmotka{
+    background: #fff;
+    background-image: url('../img/img10.png');
+    width: 10%;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 12px auto;
+    padding: 10px;
+}
+
+
+content .Block4 form{}
+content .Block4 form *{
+    width: 100%;
+    border: none;
+    padding: 12px 15px;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+}
+.divError p{
+	padding:0px;
+	margin:0px;
+}
+content .Block4 form input[type="text"]{
+    border-top: 2px solid #facb43;
+    margin: 0px 0px 14px 0px;
+}
+content .Block4 form input[type="submit"]{
+    background-color: #facb43;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top:15px;
+}
+content .Block4 form .BlockForm{
+	background-color:#fccb02;
+}
+content .Block4 form textarea{
+    border-top: 2px solid #facb43;
+    margin: 0px 0px 14px 0px;
+    height: 140px;
+    resize: none;
+}
+
+content .Block5{
+    width: 60%;
+    background: #f5f5f5;
+    margin: 50px auto;
+    text-align: left;
+    padding: 50px;
+}
+content .Block5 .Title{
+    font-family: 'ProximaNovaExtrabold';
+    font-size: 30px;
+}
+content .Block5 .Title:after{
+    display: inline-block;
+    content: '';
+    background-image: url('../img/img8.png');
+    height: 21px;
+    width: 152px;
+    margin: 0px 0px 0px 15px;
+}
+content .Block5 .Title:before{
+    display: inline-block;
+    content: '';
+    background-image: url('../img/img8.png');
+    height: 21px;
+    width: 152px;
+    margin: 0px 15px 0px 0px;
+}
+content .Block5 .Info{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 25px 0px 50px 0px;
+}
+
+content .Block6{
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color: #fefcf0;
+}
+content .Block6 > .Title{
+    font-family: 'ProximaNovaExtrabold';
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+content .Block6 > .Title:after{
+    display: inline-block;
+    content: '';
+    background-image: url('../img/img8.png');
+    height: 21px;
+    width: 152px;
+    margin: 0px 0px 0px 15px;
+}
+content .Block6 > .Title:before{
+    display: inline-block;
+    content: '';
+    background-image: url('../img/img8.png');
+    height: 21px;
+    width: 152px;
+    margin: 0px 15px 0px 0px;
+}
+content .Block6 img{
+    max-width: 100%;
+}
+content .Block6 .Items{
+    padding: 40px 0px 0px 0px;
+}
+content .Block6 .Items .Item{
+    display: inline-block;
+    width: 290px;
+}
+content .Block6 .Items .Item:nth-child(2){
+    margin: 0px 90px 0px 90px;
+}
+content .Block6 .Items .Item .title{
+    font-family: 'ProximaNovaBold';
+    font-size: 20px;
+}
+content .Block6 .Items .Item .text{
+    font-size: 18px;
+    padding: 20px 0px 0px 0px;
+    line-height: 20px;
+    width: 80%;
+    margin:auto;
+}
+content .Block7{
+    display: flex;
+    
+}
+content .Block7-form{
+    background: #FFDB4B;
+    width: 50.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+content .Block7-form .Title{
+    font-family: 'ProximaNovaExtrabold';
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+content .Block7-form span{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+content .Block7-form p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+content .Block7-form .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+content .Block7-form input:not([type="checkbox"]){
+    padding: 10px;
+    border:1px solid #e5e5e5;
+    border-radius: 3px;
+    height: 55px;
+    font-size: 16px;
+}
+content .Block7-form .form-text{
+    min-width: 360px;
+}
+content .Block7-form input{
+    margin-bottom: 10px;
+}
+content .Block7-form .form input[type="submit"]{
+    padding: 0.3em 0.7em;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 10px solid #fff;
+    background: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+content .Block7-form a{
+    text-decoration:underline;
+
+}
+content .Block7-logo{
+    width: 50%;
+    min-height: 100vh;
+    background-image: url('../img/driver.png');
+    background-repeat: no-repeat;
+}
+
+content .Block8{
+    font-size: 14px;
+    padding: 30px 0px;
+}
+content .Block8 p{}
+
+footer{
+    background-color: #ebebeb;
+    padding: 30px 0px;
+}
+footer .Items{
+    font-size: 0px;
+}
+footer .Items .Item{
+    display: inline-block;
+    width: 25%;
+    font-size: 14px;
+}
+footer .Items .Item:nth-child(1){
+    width: 40%;
+}
+footer .Items .Item:nth-child(2){
+    width: 30%;
+}
+footer .Items .Item:nth-child(3){
+    width: 15%;
+}
+footer .Items .Item:nth-child(4){
+    width: 15%;
+}
+footer .Items .Item a{
+    color: #3b3b3d;
+    text-decoration: underline;
+}
